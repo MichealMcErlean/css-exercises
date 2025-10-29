@@ -1,1 +1,20 @@
 /* Add CSS Styling */
+.odd {
+    background-color: rgb(230, 128, 184);
+    font-family: 'Verdana', 'DejaVu Sans', 'sans-serif';
+}
+
+.num3 {
+    font-size: 24px;
+}
+
+#num2 {
+    color: hsl(241, 75%, 49%);
+    font-size: 36px;
+}
+
+#num4 {
+    background-color: #42e042;
+    font-size: 24px;
+    font-weight: bold;
+}
