@@ -46,3 +46,29 @@ a {
 ul {
   list-style-type: none;
 }
+
+/* SOLUTION
+    I know this isn't proper, but I want the changes
+    to be in one place and easy to read */
+.header {
+    padding: 8px;
+    display:flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-items, .right-items {
+    display: flex;
+    gap: 16px;
+}
+/* I hadn't saved my altered index.html, so the left/right divs
+    weren't in - explains why the solution code wasn't working 
+    for me. I originally had the margin-right: auto trick on
+    ul.links separating the two sides. */
+ul.links {
+    display: flex;
+    padding: 0;
+    /* margin-right: auto; */
+    gap: 16px;
+}
